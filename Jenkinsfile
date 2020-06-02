@@ -9,13 +9,12 @@ pipeline{
                     def userInput = input(
                         id: 'userInput', message: 'Please enter project information',
                         parameters: [
-
-                                string(defaultValue: 'terraform-provider-template',
-                                        description: 'Enter the repository name:',
-                                        name: 'RepositoryName'),
-                                string(defaultValue: 'Sample Description',
-                                        description: 'Enter repository description',
-                                        name: 'RepositoryDesc'),
+                            string(defaultValue: 'terraform-provider-template',
+                                    description: 'Enter the repository name:',
+                                    name: 'RepositoryName'),
+                            string(defaultValue: 'Sample Description',
+                                    description: 'Enter repository description',
+                                    name: 'RepositoryDesc'),
                         ])
                     
                     env.REPOSTORY_NAME = userInput.RepositoryName?:''
