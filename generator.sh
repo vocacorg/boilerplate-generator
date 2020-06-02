@@ -4,7 +4,7 @@ REPOSITORY_NAME=$1
 REPOSITORY_DESC=$2
 
 echo "Cloning the template repository"
-git clone https://github.com/vocacorg/terraform-provider-template.git
+git clone https://bhageshrisingh1ms:Bhageshri1bsS@github.com/vocacorg/terraform-provider-template.git
 
 echo "Installing pre-reqs modules"
 python3 installpreqs.py
