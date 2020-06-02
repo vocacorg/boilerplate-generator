@@ -3,6 +3,7 @@ pipeline{
     stages{
         stage("Clone"){
             steps{
+                echo "$GITHUB_USERNAME $GITHUB_USERNAME"
                 cleanWs()
                 script {
                     // Get the input

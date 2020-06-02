@@ -2,6 +2,11 @@
 
 REPOSITORY_NAME=$1
 REPOSITORY_DESC=$2
+echo "Repository Name: $REPOSITORY_NAME, Repository Desc: $REPOSITORY_DESC"
+
+echo "Name: $GITHUB_NAME, Email: $GITHUB_EMAIL"
+git config --global user.name $GITHUB_NAME
+git config --global user.email $GITHUB_EMAIL
 
 echo "Cloning the template repository"
 git clone https://bhageshrisingh1ms:Bhageshri1bsS@github.com/vocacorg/terraform-provider-template.git
