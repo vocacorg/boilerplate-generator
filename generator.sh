@@ -19,5 +19,5 @@ cd $REPOSITORY_NAME
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/vocacorg/$REPOSITORY_NAME.git
+git remote add origin https://bhageshrisingh1ms:Bhageshri1bsS@github.com/vocacorg/$REPOSITORY_NAME.git
 git push -u origin master
