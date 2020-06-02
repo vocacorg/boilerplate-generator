@@ -4,10 +4,7 @@ pipeline{
         stage("Clone"){
             steps{
                 cleanWs()
-                // Variables for input
-                    def inputConfig
-                    def inputTest
-
+                script {
                     // Get the input
                     def userInput = input(
                         id: 'userInput', message: 'Please enter project information',
