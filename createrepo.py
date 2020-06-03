@@ -18,7 +18,7 @@ data = {"name": repository_name,
 
 headers = {'Accept': 'application/vnd.github.baptiste-preview+json'}
 repository_url = "https://api.github.com/orgs/vocacorg/repos"
-resp = requests.post(repository_url, data=json.dumps(data), headers=headers, auth=('bhageshrisingh1ms', 'Bhageshri1bsS'))
+resp = requests.post(repository_url, data=json.dumps(data), headers=headers, auth=('fdsfds', 'fdsfds'))
 
 if resp.status_code != 201:
     response = resp.json()

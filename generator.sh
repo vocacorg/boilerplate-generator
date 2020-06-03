@@ -9,7 +9,7 @@ git config --global user.name $GITHUB_NAME
 git config --global user.email $GITHUB_EMAIL
 
 echo "Cloning the template repository"
-git clone https://bhageshrisingh1ms:Bhageshri1bsS@github.com/vocacorg/terraform-provider-template.git
+git clone https://fdsf1ms:fdsdf@github.com/vocacorg/terraform-provider-template.git
 
 echo "Installing pre-reqs modules"
 python3 installpreqs.py
@@ -24,5 +24,5 @@ cd $REPOSITORY_NAME
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://bhageshrisingh1ms:Bhageshri1bsS@github.com/vocacorg/$REPOSITORY_NAME.git
+git remote add origin https://fdsf1ms:fdsf@github.com/vocacorg/$REPOSITORY_NAME.git
 git push -u origin master
